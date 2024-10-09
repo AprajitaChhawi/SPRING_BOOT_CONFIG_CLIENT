@@ -1,0 +1,16 @@
+spring.application.name: spring-boot-config
+my.greeting: Hello World Test
+
+app:
+  name: My app
+  description: Welcome to ${app.name}
+
+my:
+  list.values: One,Two,Three
+  dbValues: "{ConnectionString:'http://aprajitaIsCool',userName:'hello',pass:'pass'}"
+db:
+  connection: "test-connection"
+  host: 127.0.0.1
+  port: 2400
+
+management.endpoints.web.exposure.include: "*"
